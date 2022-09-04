@@ -1,65 +1,48 @@
 * {
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
 }
-html, body {
-    color: rgb(142, 142, 142);
+body {
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
 }
 .container {
-    margin: 32px 14.9px 0 14.9px;
-    width: 935px;
-    height: 855.2px;
-    line-height: 18px;
-    margin: 50px auto;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    margin: 50px auto 0;
+    max-width: 935px;
+    padding-bottom: 32px;
+    line-height: 18px;
 }
 .left {
+    width: 380.312px;
+    height:  581.15px;
     background-image: url('images/phone.png');
-    background-repeat: no-repeat;
-    width: 400px;
-    height: 582px;
     background-size: cover;
-    margin: -50px 30px 12px 0;
+    background-position-x: -46px;
+    line-height: inherit;
 }
 .left img {
+    width: 229px;
     position: relative;
-    width: 230px;
-    height: 500px;
     top: 20px;
-    left: 144px;
+    left: 95px;
 }
 .right {
-    margin-bottom: 10px;
     width: 350px;
-    height: 620px;
+    height: 396px;
     border: 1px solid rgb(219, 219, 219);
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: -100px;
-    padding: 30px;
     text-align: center;
+    line-height: inherit;
+    border-radius: 1px;
 }
-.right h3 {
-    font-weight: 600;
-    line-height: 20px;
-    margin-bottom: 10px;
-    font-size: 17px;
+.right img {
+    padding: 40px 0;
 }
-.right button{
-    width: 268px;
-    height: 31.6px;
-    line-height: 18px;
-    background-color:  rgb(0, 149, 246);
-    border: 1px solid rgba(0, 0, 0, 0);
-    border-radius: 4px;
-    font-size: 14px;
-    font-weight: 600;
-    color: rgb(255, 255, 255);
-    padding: 5px 9px;
-    margin-top: 10px;
+.right .input{
+    width: 258px;
+    height: 36px;
+    display: block;
+    margin: auto;
 }
