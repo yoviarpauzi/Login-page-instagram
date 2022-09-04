@@ -1,22 +1,65 @@
-html, body {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.container {
-    width: 348px;
-    background-color: #fff;
-    margin: 50px auto;
-    text-align: center;
-    padding: 10px 0;
-    font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    border: 1px solid rgb(219, 219, 219);
-    line-height: 18px;
-    border-radius: 1px;
-}
-.container header h2 {
-    display: inline-block;
-    height: 40px;
+html, body {
     color: rgb(142, 142, 142);
-    font-size: 20px;
+}
+.container {
+    margin: 32px 14.9px 0 14.9px;
+    width: 935px;
+    height: 855.2px;
+    line-height: 18px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+.left {
+    background-image: url('images/phone.png');
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 582px;
+    background-size: cover;
+    margin: -50px 30px 12px 0;
+}
+.left img {
+    position: relative;
+    width: 230px;
+    height: 500px;
+    top: 20px;
+    left: 144px;
+}
+.right {
+    margin-bottom: 10px;
+    width: 350px;
+    height: 620px;
+    border: 1px solid rgb(219, 219, 219);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -100px;
+    padding: 30px;
+    text-align: center;
+}
+.right h3 {
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.right button{
+    width: 268px;
+    height: 31.6px;
+    line-height: 18px;
+    background-color:  rgb(0, 149, 246);
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding: 5px 9px;
+    margin-top: 10px;
 }
