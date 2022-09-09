@@ -138,6 +138,13 @@ body {
 .store p {
     margin-bottom: 20px;
 }
+.apps {
+    display: flex;
+    justify-content: center;
+}
+.apps a{
+    padding: 0 5px;
+}
 .footer {
     max-width: 64vw;
     height: 105px;
